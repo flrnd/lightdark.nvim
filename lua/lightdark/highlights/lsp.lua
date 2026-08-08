@@ -8,7 +8,7 @@ return function(palette)
     ["@lsp.type.enum"] = "@type",
     ["@lsp.type.enumMember"] = "@constant",
     ["@lsp.type.escapeSequence"] = "@string.escape",
-    ["@lsp.type.function"] = "@variable.parameter",
+    ["@lsp.type.function"] = "@functionr",
     ["@lsp.type.formatSpecifier"] = "@markup.list",
     ["@lsp.type.generic"] = "@variable",
     ["@lsp.type.interface"] = { fg = palette.teal },
