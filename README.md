@@ -43,6 +43,8 @@ The code is intentionally simple and approachable, so extending the theme doesn'
 
 The primary and currently most mature theme.
 
+![lightdark default theme](./lightdark.png)
+
 ### Paper
 
 The light theme is currently **work in progress**.
