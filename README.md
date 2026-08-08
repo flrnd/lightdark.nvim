@@ -71,6 +71,19 @@ Using `lazy.nvim`:
 
 ```lua
 {
+  "flrnd/lightdark.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd.colorscheme("lightdark")
+  end,
+}
+```
+
+Or if you fork it:
+
+```lua
+{
   "YOUR_USERNAME/lightdark.nvim",
   lazy = false,
   priority = 1000,
@@ -78,10 +91,13 @@ Using `lazy.nvim`:
     vim.cmd.colorscheme("lightdark")
   end,
 }
+```
 
 ### Paper variant
 
-`vim.cmd.colorscheme("lightdark-paper")`
+```lua
+vim.cmd.colorscheme("lightdark-paper")
+```
 
 ## Configuration
 
@@ -99,7 +115,6 @@ For plugin support, please consider whether the highlight belongs in the core th
 
 Bug fixes and improvements to the theme itself are always welcome.
 
-License
+## License
 
 MIT
-```
