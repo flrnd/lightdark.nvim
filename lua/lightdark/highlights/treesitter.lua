@@ -29,7 +29,7 @@ return function(palette)
     ["@function.method.call"] = "@function.method",
     ["@keyword"] = "Keyword",
     ["@keyword.conditional"] = "Conditional",
-    ["@keyword.coroutine"] = "Constant",
+    ["@keyword.coroutine"] = "Keyword",
     ["@keyword.debug"] = "Debug",
     ["@keyword.directive"] = "PreProc",
     ["@keyword.directive.define"] = "Define",
