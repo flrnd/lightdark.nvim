@@ -40,7 +40,7 @@ return function(palette)
     lCursor = { fg = palette.bg, bg = palette.fg },
     CursorIM = { fg = palette.bg, bg = palette.fg },
 
-    CursorColumn = { bg = palette.highlight },
+    CursorColumn = { bg = palette.reference },
     CursorLine = { bg = palette.highlight },
 
     Folded = { fg = palette.blue, bg = palette.secondary },

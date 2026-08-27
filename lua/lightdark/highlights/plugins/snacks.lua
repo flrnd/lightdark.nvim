@@ -56,7 +56,7 @@ return function(palette)
 
     -- Indent
     SnacksIndent = { fg = palette.surface, nocombine = true },
-    SnacksIndentScope = { fg = palette.highlight, nocombine = true },
+    SnacksIndentScope = { fg = palette.border, nocombine = true },
 
     -- Input
     SnacksZenIcon = { fg = palette.magenta },
